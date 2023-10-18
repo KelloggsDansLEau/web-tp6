@@ -1,0 +1,85 @@
+html {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 94%;
+    padding: 3%;
+    flex-grow: 1;
+}
+
+header h1 {
+    padding: 3rem;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0%;
+}
+
+header ul li{
+    padding: 0.6rem;
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    flex-basis: 59%;
+    flex-grow: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+
+main img{
+    width: 10%;
+    padding: 0.2%;
+}
+
+
+
+main h2{
+    height: 5%;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    flex-grow: 0;
+    height: 40%;
+}
+
+aside img{
+    width: 1rem;
+    flex-basis: 40%;
+}
+
+aside p, aside h1{
+    flex-basis: 20%;
+    flex-grow: 0;
+}
+
+footer {
+    flex-basis: 100%;
+    padding: 1rem;
+}
